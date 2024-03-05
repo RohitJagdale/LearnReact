@@ -1,0 +1,55 @@
+.main-page {
+  padding: 8px;
+  background-color: gray;
+  margin: auto;
+  margin-top: 30px;
+  width: 700px;
+  height: 200px;
+
+}
+
+.page-title {
+  color: greenyellow;
+  text-align: center;
+}
+
+.input-div {
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  padding: 10px;
+}
+
+.password-input{
+  border: none;
+  padding: 20px;
+  font-size: large;
+  outline: none;
+  width: 300px;
+}
+
+.cp-button { 
+  border: none;
+  background-color: blue;
+  color: white;
+  font-size: large;
+  outline: none;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  margin: auto;
+  margin-bottom: 10px;
+  width: fit-content;
+  height: fit-content;  
+  font-size: large;
+  gap: 4px;
+  color: white;
+}
+
+.range{
+  cursor: pointer;
+}
